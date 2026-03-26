@@ -1,16 +1,51 @@
-# React + Vite
+# Portafolio Rodrigo Valderrama
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio web personal desarrollado para presentar mi perfil profesional como Desarrollador Full Stack, destacando experiencia, formación, habilidades técnicas, proyectos y certificaciones en un entorno visual moderno, responsive y profesional.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este proyecto fue creado como una landing page personal con enfoque en marca profesional, experiencia de usuario y presentación clara de información relevante para procesos de selección en el área TI.
 
-## React Compiler
+El sitio reúne información sobre:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Sobre mí
+- Experiencia
+- Educación
+- Habilidades
+- Proyectos
+- Certificaciones
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- CSS3
+- HTML5
+- Vite
+
+## Objetivo del proyecto
+
+El objetivo de este portafolio es contar con una presencia digital profesional que permita mostrar mi perfil, mis competencias técnicas y algunos de mis proyectos de manera clara, ordenada y accesible.
+
+## Características principales
+
+- Diseño tipo landing page
+- Navegación por secciones
+- Interfaz responsive
+- Sección de proyectos con enlaces
+- Sección de certificaciones con acceso a evidencias en PDF o imagen
+- Estilo visual moderno con enfoque tecnológico
+
+## Estructura general
+
+```bash
+src/
+  components/
+  assets/
+  App.jsx
+  main.jsx
+  index.css
+
+public/
+  img/
+  certificados/
