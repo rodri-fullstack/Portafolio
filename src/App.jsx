@@ -207,7 +207,7 @@ function App() {
     <div className="cards-grid landing-grid">
       <article className="card project-card">
         <img
-          src="/public/proyectos/nanaikit.jpg"
+          src="/proyectos/nanaikit.jpg"
           alt="Vista previa del proyecto Nanai Kit"
           className="project-image"
         />
@@ -241,7 +241,7 @@ function App() {
 
       <article className="card project-card">
         <img
-          src="/public/proyectos/portafolio.jpg"
+          src="/proyectos/portafolio.jpg"
           alt="Vista previa del portafolio personal"
           className="project-image"
         />
@@ -262,7 +262,7 @@ function App() {
           </a>
 
           <a
-            href="https://github.com/tuusuario/portafolio"
+            href="https://github.com/rodri-fullstack/Portafolio/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-link secondary"
@@ -274,7 +274,7 @@ function App() {
 
       <article className="card project-card">
         <img
-          src="/public/proyectos/NPS-TAPP.png"
+          src="/proyectos/NPS-TAPP.png"
           alt="Vista previa de soluciones digitales y visualización"
           className="project-image"
         />
