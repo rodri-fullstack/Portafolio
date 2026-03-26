@@ -6,7 +6,7 @@ function App() {
       <Navbar />
 
       <main>
-     <section className="hero">
+<section className="hero">
   <div className="container hero-content">
     <div className="hero-text">
       <span className="hero-kicker">DESARROLLO WEB, DATOS Y ACCESIBILIDAD</span>
@@ -22,14 +22,29 @@ function App() {
         Construyo soluciones digitales funcionales combinando desarrollo,
         automatización, visualización de datos y enfoque en experiencia de usuario.
       </p>
-    </div>
-    <div className="hero-image">
-  <img
-    src="/img/hero-programming.jpg"
-    alt="Ilustración de laptop con código, representando desarrollo web y programación"
-  />
-</div>
 
+      <div className="hero-actions">
+        <a href="#proyectos" className="btn btn-primary">
+          Ver proyectos
+        </a>
+
+        <a
+          href="/certificados/CV-Rodrigo-Valderrama.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-secondary"
+        >
+          Descargar CV
+        </a>
+      </div>
+    </div>
+
+    <div className="hero-image">
+      <img
+        src="/img/hero-programming.jpg"
+        alt="Ilustración de laptop con código, representando desarrollo web y programación"
+      />
+    </div>
   </div>
 </section>
 
