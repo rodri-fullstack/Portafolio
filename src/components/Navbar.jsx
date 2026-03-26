@@ -12,6 +12,7 @@ function Navbar() {
           <a href="#educacion">Educación</a>
           <a href="#habilidades">Habilidades</a>
           <a href="#proyectos">Proyectos</a>
+          <a href="#certificaciones">Certificaciones</a>
         </nav>
       </div>
     </header>
