@@ -351,6 +351,38 @@ function App() {
         </div>
       </article>
 
+         <article className="card project-card">
+        <img
+          src="/proyectos/blog-imagen-like.jpg"
+          alt="Proyecto final del curso de Full Stack Java Junior Generation Chile, un blog de noticias con funcionalidades CRUD, paginación y diseño responsive"
+          className="project-image"
+        />
+        <h3>Certificación final Full Stack Trainee Talento Digital</h3>
+        <p>
+          Desarrollo final del blog de noticias, agregando funciones como subir imágenes y sistema de likes, utilizando Javascript, React, HTML5, CSS3 y Bootstrap. Este proyecto representa la culminación de la formación en desarrollo web, integrando funcionalidades avanzadas para mejorar la experiencia del usuario y la interacción con el contenido.
+        </p>
+
+        <div className="project-links">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+          Ver proyecto
+          </a>
+
+          <a
+            href="https://github.com/rodri-fullstack/Certificaci-n-final-Talento-Digital"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link secondary"
+          >
+          GitHub
+          </a>
+        </div>
+      </article>
+
     </div>
   </div>
 </section>
