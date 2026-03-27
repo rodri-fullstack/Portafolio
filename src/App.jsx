@@ -319,6 +319,38 @@ function App() {
           </a>
         </div>
       </article>
+   <article className="card project-card">
+        <img
+          src="/proyectos/blog-de-noticias.jpg"
+          alt="Proyecto final del curso de Full Stack Java Junior Generation Chile, un blog de noticias con funcionalidades CRUD, paginación y diseño responsive"
+          className="project-image"
+        />
+        <h3>Proyecto final del curso Full Stack Trainee Talento Digital</h3>
+        <p>
+          Desarrollo de un blog de noticias con funcionalidades CRUD, paginación y diseño responsive, utilizando Javascript, React, HTML5, CSS3 y Bootstrap. El proyecto se centra en la creación de una plataforma de noticias con una interfaz intuitiva y atractiva, permitiendo a los usuarios interactuar con el contenido de manera eficiente.
+        </p>
+
+        <div className="project-links">
+          <a
+            href="https://m9-blog-de-noticias.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+          Ver proyecto
+          </a>
+
+          <a
+            href="https://github.com/rodri-fullstack/M9-BLOG-DE-NOTICIAS"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link secondary"
+          >
+          GitHub
+          </a>
+        </div>
+      </article>
+
     </div>
   </div>
 </section>
