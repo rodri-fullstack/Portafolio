@@ -73,10 +73,10 @@ function App() {
             </p>
 
             <p>
-              Además de mi formación en desarrollo de software, cuento con base en
-              <strong> kinesiología</strong> y <strong>diseño gráfico</strong>, lo
-              que me permite abordar los proyectos con una visión integral,
-              humana y funcional.
+              Integro mi experiencia clínica en kinesiología con el desarrollo Full Stack
+              y el análisis de datos para construir soluciones digitales inclusivas en la 
+              intersección de salud y tecnología. Especial foco en accesibilidad web (WCAG 2.1 / A11Y),
+              usabilidad centrada en la persona y optimización de procesos basada en datos.
             </p>
           </div>
         </section>
@@ -91,7 +91,7 @@ function App() {
                 <h3>Analista de Datos y Gestión de la Información — Apex America</h3>
                 <p>
                   Implementé automatización de reportes con SQL, Excel, Power BI,
-                  BigQuery y Looker Studio, reduciendo tareas manuales y mejorando
+                  BigQuery y Looker Studio, reduciendo en un 80% las tareas manuales y mejorando
                   la eficiencia operativa.
                 </p>
               </article>
@@ -126,13 +126,13 @@ function App() {
     <div className="cards-grid education-grid">
       <article className="card education-card">
         <a
-          href="/certificados/talento-digital.pdf"
+          href="https://acred.it/GWfJ4"
           target="_blank"
           rel="noopener noreferrer"
           className="certificate-link"
         >
           <img
-            src="/certificados/talento-digital-preview.jpg"
+            src="/certificados/credencial_talentodigital.png"
             alt="Vista previa certificado Full Stack JavaScript Trainee"
             className="certificate-image"
           />
@@ -140,10 +140,9 @@ function App() {
 
         <h3>Full Stack JavaScript Trainee</h3>
         <p>
-          Formación en desarrollo de aplicaciones Full Stack, actualmente en
-          curso con Talento Digital Chile y SENCE.
+          Bootcamp intensivo de 472 horas enfocado en desarrollo de aplicaciones SPA con JavaScript (ES6+), React, Bootstrap y consumo de APIs REST.
         </p>
-        <p className="certificate-note">Haz clic en la imagen para abrir el PDF.</p>
+        <p className="certificate-note">Haz clic en la imagen para acreditar la credencial.</p>
       </article>
 
       <article className="card education-card">
@@ -160,7 +159,7 @@ function App() {
           />
         </a>
 
-        <h3>Full Stack Java Junior Java Generation Chile</h3>
+        <h3>Full Stack Java Junior Generation Chile</h3>
         <p>
           Programa intensivo de 520 horas con foco en desarrollo web, buenas
           prácticas, pruebas unitarias y trabajo colaborativo.
@@ -309,45 +308,6 @@ function App() {
           
           </a>
 
-          <a
-            href="https://github.com/tuusuario/visualizacion"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link secondary"
-          >
-            
-          </a>
-        </div>
-      </article>
-   <article className="card project-card">
-        <img
-          src="/proyectos/blog-de-noticias.jpg"
-          alt="Proyecto final del curso de Full Stack Java Junior Generation Chile, un blog de noticias con funcionalidades CRUD, paginación y diseño responsive"
-          className="project-image"
-        />
-        <h3>Proyecto final del curso Full Stack Trainee Talento Digital</h3>
-        <p>
-          Desarrollo de un blog de noticias con funcionalidades CRUD, paginación y diseño responsive, utilizando Javascript, React, HTML5, CSS3 y Bootstrap. El proyecto se centra en la creación de una plataforma de noticias con una interfaz intuitiva y atractiva, permitiendo a los usuarios interactuar con el contenido de manera eficiente.
-        </p>
-
-        <div className="project-links">
-          <a
-            href="https://m9-blog-de-noticias.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link"
-          >
-          Ver proyecto
-          </a>
-
-          <a
-            href="https://github.com/rodri-fullstack/M9-BLOG-DE-NOTICIAS"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link secondary"
-          >
-          GitHub
-          </a>
         </div>
       </article>
 
@@ -364,7 +324,7 @@ function App() {
 
         <div className="project-links">
           <a
-            href=""
+            href="https://certificaci-n-final-talento-digital.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-link"
@@ -393,7 +353,31 @@ function App() {
   <div className="container">
     <h2 className="section-title-center">Certificaciones</h2>
 
+
+
     <div className="cards-grid certifications-grid">
+
+         <article className="card certification-card">
+        <span className="card-date">2026</span>
+        <span className="cert-badge">Certificación</span>
+        <h3>Fundamentos de IA Google</h3>
+        <p className="cert-institution">Coursera - Talento Digital Chile</p>
+        <p></p>
+        <a
+          href="/certificados/Fundamentos_IA_Google.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cert-link"
+        >
+                 <img
+            src="/certificados/Fundamentos_IA_Google.png"
+            alt="Vista previa certificado o documento de Fundamentos de IA Google"
+            className="certificate-image"
+          />
+          Ver certificado
+        </a>
+      </article>
+
       <article className="card certification-card">
         <span className="card-date">2023</span>
         <span className="cert-badge">Certificación</span>
